@@ -1,0 +1,3 @@
+https://github.com/EVYang1992/static
+
+Explanation: If you find out that in **screenshot-03** the website is different, that is because at that time i launched a ec2 instance and install jenkins, but jenkins can not install jenkins plugins, so i quited at that time and terminated the instance afterwards. after several days i found out the problem is that it is the firewall problem, i set _"ufw enable OpenSSH"_, _"ufw enable 8080"_, _"systemctl enable ufw"_, then lauched another instance and jenkins worked perfect on instance, but this time i forgot to take a screenshot, so i used the former one in replace.
